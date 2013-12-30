@@ -1,0 +1,25 @@
+{
+    "name": "linkorb/poparser",
+    "description": "Gettext PO (Portable Object) file parsing library",
+    "homepage": "http://www.github.com/linkorb/poparser",
+    "keywords": ["php", "gettext", "translation", "internationalization"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joost Faassen",
+            "email": "j.faassen@linkorb.com",
+            "role": "Packaging for composer"
+        },
+        {
+            "name": "Iulian Ilea",
+            "website": "http://iulian.net",
+            "role": "Source files"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
